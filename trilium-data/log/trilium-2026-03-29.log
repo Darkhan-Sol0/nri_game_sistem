@@ -14054,3 +14054,230 @@ Stack: Error
 16:03:22.068 200 GET /api/notes/LOmh4erMZt8M/metadata with 181 bytes took 0ms
 16:03:23.249 200 GET /api/notes/NGt5RCxNAIPL/metadata with 181 bytes took 1ms
 16:03:24.431 200 GET /api/notes/Q37AViETgT68/metadata with 181 bytes took 0ms
+16:04:56.970 
+ _____     _ _ _
+|_   _| __(_) (_)_   _ _ __ ___   | \ | | ___ | |_ ___  ___
+  | || '__| | | | | | | '_ ` _ \  |  \| |/ _ \| __/ _ \/ __|
+  | || |  | | | | |_| | | | | | | | |\  | (_) | ||  __/\__ \
+  |_||_|  |_|_|_|\__,_|_| |_| |_| |_| \_|\___/ \__\___||___/ 0.102.1
+
+16:04:56.970 📦 Versions:    app=0.102.1 db=234 sync=36 clipper=1.0
+16:04:56.970 🔧 Build:       2026-03-08 08:46:44 (8ac9daa5d3)
+16:04:56.970 📂 Data dir:    /home/darkhan/.local/share/trilium-data
+16:04:56.970 ⏰ UTC time:    2026-03-29 07:04:56
+16:04:56.971 💻 CPU:         12th Gen Intel(R) Core(TM) i5-12450H (12-core @ 1825 Mhz)
+16:04:56.971 💾 DB size:     8 MiB
+16:04:56.971 
+16:04:56.997 Becca (note cache) load took 23ms
+16:04:57.011 Updating attribute _help_Un4wj2Mak2Ky_ldocName from "User Guide/User Guide/Installation & Setup/Server Installation/Nix flake.clone" to "User Guide/User Guide/Installation & Setup/Desktop Installation/Nix flake"
+16:04:57.015 Updating attribute _help_Un4wj2Mak2Ky_liconClass from "bx bx-file" to "bx bxl-tux"
+16:04:57.016 Updating attribute _help_Un4wj2Mak2Ky_ldocName from "User Guide/User Guide/Installation & Setup/Desktop Installation/Nix flake" to "User Guide/User Guide/Installation & Setup/Server Installation/Nix flake.clone"
+16:04:57.016 Updating attribute _help_Un4wj2Mak2Ky_liconClass from "bx bxl-tux" to "bx bx-file"
+16:04:57.029 Trusted reverse proxy: false
+16:04:57.029 App HTTP server starting up at port 37840
+16:04:57.066 Registered global shortcut Ctrl+Alt+P for action createNoteIntoInbox
+16:04:57.071 Listening on port 37840
+16:04:57.280 CSRF token generation: Successful
+16:04:57.388 200 GET /api/options with 8854 bytes took 1ms
+16:04:57.390 200 GET /api/keyboard-actions with 23563 bytes took 1ms
+16:04:57.392 200 GET /api/tree with 18912 bytes took 1ms
+16:04:57.392 200 GET /api/autocomplete/notesCount with 3 bytes took 0ms
+16:04:57.394 200 GET /api/options/locales with 1264 bytes took 1ms
+16:04:57.433 200 GET /api/script/widgets with 2 bytes took 2ms
+16:04:57.586 200 GET /api/keyboard-shortcuts-for-notes with 2 bytes took 0ms
+16:04:57.587 200 GET /api/system-checks with 27 bytes took 0ms
+16:04:57.588 200 POST /api/tree/load with 8943 bytes took 0ms
+16:04:57.589 200 POST /api/tree/load with 9420 bytes took 1ms
+16:04:57.605 200 POST /api/tree/load with 10245 bytes took 1ms
+16:04:57.606 200 POST /api/tree/load with 10275 bytes took 0ms
+16:04:57.635 Slow query took 28ms: SELECT notes.noteId, notes.isDeleted AS current_isDeleted, notes.deleteId AS current_deleteId, notes.title AS current_title, notes.isProtected AS current_isProtected, revisions.title, revisions.utcDateCreated AS utcDate, revisions.dateCreated AS date FROM revisions JOIN notes USING(noteId)
+16:04:57.638 Slow 200 GET /api/recent-changes/undefined with 2 bytes took 31ms
+16:04:57.640 200 POST /api/tree/load with 15430 bytes took 1ms
+16:04:57.642 200 POST /api/tree/load with 23075 bytes took 0ms
+16:04:57.643 200 POST /api/tree/load with 15430 bytes took 0ms
+16:04:57.646 200 GET /api/tree?subTreeNoteId=j3JPsj58Skp4 with 11173 bytes took 1ms
+16:04:57.656 200 GET /api/notes/mbiWrMjMI79J/metadata with 181 bytes took 1ms
+16:04:57.656 200 GET /api/notes/mbiWrMjMI79J/attachments with 2 bytes took 0ms
+16:04:57.688 200 GET /api/notes/mbiWrMjMI79J/attachments with 2 bytes took 0ms
+16:04:57.689 200 GET /api/note-map/mbiWrMjMI79J/backlink-count with 11 bytes took 0ms
+16:04:57.718 200 GET /api/notes/root with 315 bytes took 0ms
+16:04:57.742 200 GET /api/notes/_template_text_snippet with 344 bytes took 1ms
+16:04:57.744 204 PUT /api/branches/Np6kBBYj6k9k_j3JPsj58Skp4/expanded/1 with 0 bytes took 1ms
+16:04:57.751 200 GET /api/notes/_template_list_view with 323 bytes took 1ms
+16:04:57.761 200 GET /api/search/%23workspace%20%23!template with 2 bytes took 1ms
+16:04:57.788 Slow query took 26ms: SELECT *, LENGTH(content) AS contentLength FROM blobs WHERE blobId = ?
+16:04:57.788 Slow 200 GET /api/notes/mbiWrMjMI79J/blob with 297 bytes took 26ms
+16:04:57.789 200 GET /api/search/%23textSnippet with 2 bytes took 0ms
+16:04:57.791 200 GET /api/autocomplete?query=&activeNoteId=mbiWrMjMI79J&fastSearch=true with 40147 bytes took 1ms
+16:04:57.792 200 GET /api/notes/_template_grid_view with 322 bytes took 0ms
+16:04:57.802 200 GET /api/notes/_template_calendar with 325 bytes took 0ms
+16:04:57.804 200 GET /api/notes/_template_table with 320 bytes took 0ms
+16:04:57.806 200 GET /api/notes/_template_geo_map with 320 bytes took 1ms
+16:04:57.807 200 GET /api/notes/_template_board with 325 bytes took 0ms
+16:04:57.808 200 GET /api/notes/_template_presentation with 331 bytes took 0ms
+16:04:57.810 200 GET /api/search-templates with 2 bytes took 0ms
+16:04:58.112 JS Info: CKEditor state changed to ready
+16:04:59.006 204 PUT /api/options with 0 bytes took 2ms
+16:04:59.024 200 GET /api/notes/root/metadata with 181 bytes took 0ms
+16:04:59.025 200 GET /api/notes/root/attachments with 2 bytes took 0ms
+16:04:59.028 200 GET /api/notes/root/attachments with 2 bytes took 0ms
+16:04:59.029 200 GET /api/note-map/root/backlink-count with 11 bytes took 0ms
+16:04:59.042 200 GET /api/search/note.parents.noteId%3D%22root%22%20%23!archived with 56 bytes took 3ms
+16:04:59.587 200 GET /api/script/startup with 2 bytes took 1ms
+16:05:01.028 Slow query took 26ms: SELECT COUNT(1) FROM notes
+16:05:01.030 Table counts: notes: 894, revisions: 887, attachments: 4, branches: 942, attributes: 692, etapi_tokens: 0, blobs: 887
+16:05:01.052 All consistency checks passed with no errors detected (took 50ms)
+16:05:04.574 Sending message to all clients: {"type":"taskProgressCount","taskId":"mspazaPxKn","taskType":"export","data":null,"progressCount":0}
+16:05:04.584 Exporting note 'root'
+16:05:04.584 Exporting note 'RK9Uo9YaXGoX'
+16:05:04.604 Exporting note 'r4CrYXkFlduq'
+16:05:04.604 Exporting note 'xjRCdUyXsazS'
+16:05:04.607 Exporting note 'M7BGjZGjeLZn'
+16:05:04.608 Exporting note 'hs5INNWwNRdP'
+16:05:04.608 Exporting note 'saPwk7jwu6Ds'
+16:05:04.608 Exporting note 'UYGXkSPndccy'
+16:05:04.609 Exporting note 'M8CgDT0l7Buf'
+16:05:04.609 Exporting note '9CeRbzzmVA2c'
+16:05:04.609 Exporting note 'HF0X2qYspISX'
+16:05:04.610 Exporting note 'hGIzADduhZLf'
+16:05:04.617 Exporting note 'DtrMkAjNfU7M'
+16:05:04.618 Exporting note 'kmfVzdco4DY8'
+16:05:04.618 Exporting note 'ABSNSjZ2Vg6F'
+16:05:04.618 Exporting note 'QUut3rMrYWLm'
+16:05:04.618 Exporting note '4j08wUyMhjvB'
+16:05:04.618 Exporting note 't2dzXcIMT2NL'
+16:05:04.619 Exporting note 'bymsZuNsgcRc'
+16:05:04.619 Exporting note 'iHzgNoiFibuK'
+16:05:04.620 Exporting note '4xacG2eYtJyG'
+16:05:04.620 Exporting note '7S3S7WciUAIc'
+16:05:04.620 Exporting note '1ipNKsAX7ZHb'
+16:05:04.620 Exporting note '26KSe31gGAIs'
+16:05:04.621 Exporting note '4WMARG95do49'
+16:05:04.622 Exporting note 'Y0OEA7dPawZu'
+16:05:04.622 Exporting note 'sLliJIybl43b'
+16:05:04.622 Exporting note '1fDijoGhK7Rw'
+16:05:04.623 Exporting note '1GaCnk8lwyXQ'
+16:05:04.623 Exporting note 'Mqno3WZ5OFV2'
+16:05:04.623 Exporting note 'nMgWOvbe1iWs'
+16:05:04.623 Exporting note 'qpK3YSn2GfAN'
+16:05:04.623 Exporting note 'jafI9oFJNoSG'
+16:05:04.623 Exporting note 'qpzR7IuuPqzs'
+16:05:04.624 Exporting note 't7cSaHPw0x0M'
+16:05:04.624 Exporting note 'FvNjVFF0IzpF'
+16:05:04.624 Exporting note 'TJiLDNyEsatq'
+16:05:04.624 Exporting note 'lMjvOQ3IZnhc'
+16:05:04.624 Exporting note 'seKsSgAahWsD'
+16:05:04.625 Exporting note 'dxCA5h4PGS7q'
+16:05:04.625 Exporting note 'eLi43UzxsguK'
+16:05:04.625 Exporting note 'MDvuEZ38cjYR'
+16:05:04.625 Exporting note '7HUphRKiTbIj'
+16:05:04.625 Exporting note 'Vyx9bpd5cVnl'
+16:05:04.625 Exporting note 'xrIRd0hCHMcu'
+16:05:04.625 Exporting note 'gOrU7c4PlSWY'
+16:05:04.626 Exporting note 'YZgijxiqGKwo'
+16:05:04.626 Exporting note '19QMAv0OkkEK'
+16:05:04.626 Exporting note 'LptEw5eQqv3F'
+16:05:04.627 Exporting note 'mHGYLqCjKpkO'
+16:05:04.627 Exporting note 'KKawYIuQa8B8'
+16:05:04.627 Exporting note 'TSCPnpCZvwrz'
+16:05:04.627 Exporting note 'vVTBohJWGqTy'
+16:05:04.627 Exporting note 'ncJOgsGtvyL7'
+16:05:04.627 Exporting note 'L9eeJRyvqBxf'
+16:05:04.627 Exporting note 'AiQC4bpVQKOX'
+16:05:04.627 Exporting note 'VGHFAtQyE2cj'
+16:05:04.627 Exporting note 'RZIUHAQ83RsS'
+16:05:04.627 Exporting note 'JaoqHmrnafUQ'
+16:05:04.627 Exporting note '6tAsz2EnUMpI'
+16:05:04.627 Exporting note 'DD11ZlrQVtcO'
+16:05:04.627 Exporting note 'UJLuAYZXfclO'
+16:05:04.627 Exporting note 'f3pEoqf2il4N'
+16:05:04.627 Exporting note 'pjSHaxowGovD'
+16:05:04.627 Exporting note 'pOrQF2YyJDmI'
+16:05:04.627 Exporting note '78phKWkAllp7'
+16:05:04.627 Exporting note 'vnMFk4kJpyUE'
+16:05:04.627 Exporting note 'LAtXIEmePxRe'
+16:05:04.627 Exporting note 'hUKlGowqRMAt'
+16:05:04.627 Exporting note 'YlvU04Tstvys'
+16:05:04.627 Exporting note 'AQYc0hCVXRzx'
+16:05:04.627 Exporting note 'pgDFooWlPL1y'
+16:05:04.627 Exporting note 'aRxstXD4wNSF'
+16:05:04.628 Exporting note 'VGIehZjjEEnU'
+16:05:04.628 Exporting note '2WusJCc3UazW'
+16:05:04.628 Exporting note 'XOQtnPxUvySk'
+16:05:04.629 Exporting note 'OgAkkodidCtm'
+16:05:04.629 Exporting note 'aKG8i2mE7ux4'
+16:05:04.629 Exporting note 'Np6kBBYj6k9k'
+16:05:04.629 Exporting note 'Jr8B1iAsrQQ3'
+16:05:04.631 Exporting note 'n7soY1P9f0M4'
+16:05:04.633 Exporting note 'jPaQ6E3aB98k'
+16:05:04.645 Exporting note '7dZlmKZhslzu'
+16:05:04.649 Exporting note 'V9LlgB6cOpTm'
+16:05:04.653 Exporting note 'nHP5hkjSqrxt'
+16:05:04.654 Exporting note 'AvN0cHsSO0sA'
+16:05:04.654 Exporting note 'nrc3NW5gkcqj'
+16:05:04.654 Exporting note 'PKooXlDWa7sw'
+16:05:04.655 Exporting note 'nuAUmnl4vcu4'
+16:05:04.655 Exporting note 'EfQ7utpCfxhe'
+16:05:04.655 Exporting note 'hmDmc6NZqaLT'
+16:05:04.655 Exporting note 'b4KoVWp6GFz6'
+16:05:04.655 Exporting note 'Tpqo7EUgeiSO'
+16:05:04.655 Exporting note '7rRHfmP61k8R'
+16:05:04.655 Exporting note 'NTEMVhiHSYYb'
+16:05:04.655 Exporting note 'hKdvl0gbArfF'
+16:05:04.656 Exporting note 'PETjI6uRoy44'
+16:05:04.656 Exporting note 'MowmImfXSmms'
+16:05:04.656 Exporting note 'pbMqs1rZHsH5'
+16:05:04.656 Exporting note 'u5sC4rarPUTz'
+16:05:04.656 Exporting note 'qbb4qGfNjMpV'
+16:05:04.656 Exporting note 'loKDDKWeJfom'
+16:05:04.656 Exporting note 'IufhTYhtyR0r'
+16:05:04.656 Exporting note 'PDKbVfkr3QS7'
+16:05:04.657 Exporting note 'BvjYl7g0bzZ4'
+16:05:04.657 Exporting note 'PkH8q5D2oIIF'
+16:05:04.657 Exporting note 'Eev3MHqzl0cY'
+16:05:04.657 Exporting note 'ulmYG1PqU31I'
+16:05:04.657 Exporting note 'MbpR8byHTxLC'
+16:05:04.657 Exporting note 'BK5hhHQje6gQ'
+16:05:04.657 Exporting note 'OHoBjJ5YqUlQ'
+16:05:04.657 Exporting note 'HuT7ruSZM1DA'
+16:05:04.657 Exporting note 'j3JPsj58Skp4'
+16:05:04.657 Exporting note 'sql8FvYV6UGw'
+16:05:04.658 Exporting note 'mbiWrMjMI79J'
+16:05:04.658 Exporting note 'fWPnmNN1COKg'
+16:05:04.658 Exporting note 'jObgZpRlyHND'
+16:05:04.658 Exporting note 'ByWeXYRFsmEm'
+16:05:04.658 Exporting note 'TqnwgcQiXbbY'
+16:05:04.658 Exporting note 'qe8GsKUWWgol'
+16:05:04.659 Exporting note '2pECJfbWgg9R'
+16:05:04.659 Exporting note 'poW4JiTkZDBS'
+16:05:04.659 Exporting note 'xhlO07e7fbha'
+16:05:04.659 Exporting note 'eAnOycxndbul'
+16:05:04.659 Exporting note 'LOmh4erMZt8M'
+16:05:04.659 Exporting note 'NGt5RCxNAIPL'
+16:05:04.659 Exporting note 'Q37AViETgT68'
+16:05:04.659 Exporting note 'tpWdXq27KUuh'
+16:05:04.659 Exporting note 'ei5vKYdvIzQt'
+16:05:04.660 Exporting note 'SmNyNloo08Xm'
+16:05:04.660 Exporting note '7JlBIZYWRPcy'
+16:05:04.660 Exporting note 'yzGtycSFCdGe'
+16:05:04.661 Exporting note 'TzuL2XSksAap'
+16:05:04.661 Exporting note 'kb9JCH4JiJXu'
+16:05:04.661 Exporting note 'MmYjd8eAEilH'
+16:05:04.661 Exporting note 'DOvXF5YenBA3'
+16:05:04.661 Exporting note 'qgaycrEDSqiG'
+16:05:04.661 Exporting note 'Oq7ac4bEMbTu'
+16:05:04.661 Exporting note 'W2GlwkkW5CqJ'
+16:05:04.661 Exporting note 'ZQpomNZsyUdD'
+16:05:04.661 Exporting note '4AJfTgDBTcBU'
+16:05:04.661 Exporting note '5tndI54RInFd'
+16:05:04.661 Exporting note 'iKLOlnbbhotB'
+16:05:04.661 Exporting note 'vLb84Gp8bq6b'
+16:05:04.661 Exporting note 'RiWOCrPY7PCM'
+16:05:04.661 Exporting note 'vUt7CT4OAs05'
+16:05:04.661 Exporting note 'wqefQnS8bx7Y'
+16:05:04.661 Exporting note 'x0poP3wnZaxA'
+16:05:04.661 Exporting note 'TAgudjEUFNOA'
+16:05:04.661 Exporting note 'hvoj4NTb0PGr'
+16:05:04.661 Exporting note 'vSlVltsa7iiW'
+16:05:04.661 Exporting note '6j7Sw6zFdpiX'
+16:05:04.780 Sending message to all clients: {"type":"taskSucceeded","taskId":"mspazaPxKn","taskType":"export","data":null,"result":null}
