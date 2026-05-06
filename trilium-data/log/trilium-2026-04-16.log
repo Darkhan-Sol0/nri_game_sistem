@@ -1,0 +1,23 @@
+81:32:48.413 Slow 204 PUT /api/branches/r4CrYXkFlduq_kmfVzdco4DY8/expanded/0 with 0 bytes took 26ms
+09:32:48.419 204 PUT /api/branches/kmfVzdco4DY8_QUut3rMrYWLm/expanded/0 with 0 bytes took 0ms
+09:32:48.419 204 PUT /api/branches/QUut3rMrYWLm_4j08wUyMhjvB/expanded/0 with 0 bytes took 0ms
+09:32:48.420 204 PUT /api/branches/4j08wUyMhjvB_t2dzXcIMT2NL/expanded/0 with 0 bytes took 0ms
+09:32:48.420 204 PUT /api/branches/t2dzXcIMT2NL_bymsZuNsgcRc/expanded/0 with 0 bytes took 0ms
+09:32:48.420 204 PUT /api/branches/bymsZuNsgcRc_sLliJIybl43b/expanded/0 with 0 bytes took 0ms
+09:32:48.420 204 PUT /api/branches/sLliJIybl43b_1GaCnk8lwyXQ/expanded/0 with 0 bytes took 0ms
+09:32:48.421 204 PUT /api/branches/bymsZuNsgcRc_eLi43UzxsguK/expanded/0 with 0 bytes took 0ms
+09:32:48.421 204 PUT /api/branches/kmfVzdco4DY8_VGHFAtQyE2cj/expanded/0 with 0 bytes took 0ms
+09:32:48.421 204 PUT /api/branches/VGHFAtQyE2cj_RZIUHAQ83RsS/expanded/0 with 0 bytes took 0ms
+09:32:48.422 204 PUT /api/branches/RZIUHAQ83RsS_JaoqHmrnafUQ/expanded/0 with 0 bytes took 0ms
+09:32:48.422 204 PUT /api/branches/JaoqHmrnafUQ_6tAsz2EnUMpI/expanded/0 with 0 bytes took 0ms
+09:32:48.422 204 PUT /api/branches/r4CrYXkFlduq_2WusJCc3UazW/expanded/0 with 0 bytes took 0ms
+10:27:10.273 Creating backup...
+10:27:10.331 Created backup at /home/darkhan/.local/share/trilium-data/backup/backup-daily.db
+10:27:10.331 Creating backup...
+10:27:10.333 Erased branches: ["r4CrYXkFlduq_O3yN0T9yYSJX","2WusJCc3UazW_O3yN0T9yYSJX"]
+10:27:10.334 Erased attachments: ["IvkPby20kiIo"]
+10:27:10.351 Created backup at /home/darkhan/.local/share/trilium-data/backup/backup-weekly.db
+10:27:10.351 Table counts: notes: 508, revisions: 362, attachments: 18, branches: 509, attributes: 687, etapi_tokens: 0, blobs: 481
+10:27:10.357 All consistency checks passed with no errors detected (took 6ms)
+11:48:33.896 Table counts: notes: 508, revisions: 362, attachments: 18, branches: 509, attributes: 687, etapi_tokens: 0, blobs: 481
+11:48:33.905 All consistency checks passed with no errors detected (took 10ms)

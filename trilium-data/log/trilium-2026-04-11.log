@@ -1,0 +1,343 @@
+11:21:05.251 
+ _____     _ _ _
+|_   _| __(_) (_)_   _ _ __ ___   | \ | | ___ | |_ ___  ___
+  | || '__| | | | | | | '_ ` _ \  |  \| |/ _ \| __/ _ \/ __|
+  | || |  | | | | |_| | | | | | | | |\  | (_) | ||  __/\__ \
+  |_||_|  |_|_|_|\__,_|_| |_| |_| |_| \_|\___/ \__\___||___/ 0.102.1
+
+11:21:05.252 📦 Versions:    app=0.102.1 db=234 sync=36 clipper=1.0
+11:21:05.252 🔧 Build:       2026-03-08 08:46:44 (8ac9daa5d3)
+11:21:05.252 📂 Data dir:    /home/darkhan/.local/share/trilium-data
+11:21:05.252 ⏰ UTC time:    2026-04-11 02:21:05
+11:21:05.252 💻 CPU:         12th Gen Intel(R) Core(TM) i5-12450H (12-core @ 3367 Mhz)
+11:21:05.252 💾 DB size:     8.3 MiB
+11:21:05.252 
+11:21:05.280 Becca (note cache) load took 24ms
+11:21:05.293 Updating attribute _help_Un4wj2Mak2Ky_ldocName from "User Guide/User Guide/Installation & Setup/Server Installation/Nix flake.clone" to "User Guide/User Guide/Installation & Setup/Desktop Installation/Nix flake"
+11:21:05.300 Updating attribute _help_Un4wj2Mak2Ky_liconClass from "bx bx-file" to "bx bxl-tux"
+11:21:05.301 Updating attribute _help_Un4wj2Mak2Ky_ldocName from "User Guide/User Guide/Installation & Setup/Desktop Installation/Nix flake" to "User Guide/User Guide/Installation & Setup/Server Installation/Nix flake.clone"
+11:21:05.301 Updating attribute _help_Un4wj2Mak2Ky_liconClass from "bx bxl-tux" to "bx bx-file"
+11:21:05.315 Trusted reverse proxy: false
+11:21:05.315 App HTTP server starting up at port 37840
+11:21:05.357 Registered global shortcut Ctrl+Alt+P for action createNoteIntoInbox
+11:21:05.361 Listening on port 37840
+11:21:05.601 CSRF token generation: Successful
+11:21:05.711 200 GET /api/options with 8794 bytes took 1ms
+11:21:05.714 200 GET /api/keyboard-actions with 23563 bytes took 2ms
+11:21:05.715 200 GET /api/tree with 12031 bytes took 1ms
+11:21:05.716 200 GET /api/autocomplete/notesCount with 3 bytes took 0ms
+11:21:05.717 200 GET /api/options/locales with 1264 bytes took 0ms
+11:21:05.757 200 GET /api/script/widgets with 2 bytes took 1ms
+11:21:05.917 200 GET /api/keyboard-shortcuts-for-notes with 2 bytes took 0ms
+11:21:05.917 200 GET /api/system-checks with 27 bytes took 0ms
+11:21:05.918 200 POST /api/tree/load with 8943 bytes took 0ms
+11:21:05.918 200 POST /api/tree/load with 15430 bytes took 0ms
+11:21:05.965 200 POST /api/tree/load with 10245 bytes took 0ms
+11:21:05.966 200 POST /api/tree/load with 10275 bytes took 0ms
+11:21:05.976 200 GET /api/recent-changes/undefined with 2 bytes took 9ms
+11:21:05.977 200 GET /api/notes/root/metadata with 181 bytes took 1ms
+11:21:05.979 200 GET /api/search/note.parents.noteId%3D%22root%22%20%23!archived with 56 bytes took 2ms
+11:21:05.980 200 GET /api/notes/root/attachments with 2 bytes took 0ms
+11:21:05.981 200 POST /api/tree/load with 15430 bytes took 0ms
+11:21:05.983 200 POST /api/tree/load with 23075 bytes took 0ms
+11:21:06.002 200 GET /api/notes/root/attachments with 2 bytes took 0ms
+11:21:06.003 200 GET /api/note-map/root/backlink-count with 11 bytes took 0ms
+11:21:06.052 200 GET /api/notes/root with 315 bytes took 0ms
+11:21:06.060 200 GET /api/notes/_template_text_snippet with 344 bytes took 1ms
+11:21:06.068 200 GET /api/notes/_template_list_view with 323 bytes took 0ms
+11:21:06.072 200 GET /api/notes/_template_grid_view with 322 bytes took 1ms
+11:21:06.073 200 GET /api/notes/_template_calendar with 325 bytes took 0ms
+11:21:06.074 200 GET /api/notes/_template_table with 320 bytes took 0ms
+11:21:06.080 200 GET /api/notes/_template_geo_map with 320 bytes took 1ms
+11:21:06.085 200 GET /api/search/%23workspace%20%23!template with 2 bytes took 1ms
+11:21:06.086 200 GET /api/notes/_template_board with 325 bytes took 1ms
+11:21:06.088 200 GET /api/autocomplete?query=&activeNoteId=root&fastSearch=true with 18390 bytes took 2ms
+11:21:06.088 200 GET /api/notes/_template_presentation with 331 bytes took 0ms
+11:21:06.095 200 GET /api/search-templates with 2 bytes took 1ms
+11:21:07.919 200 GET /api/script/startup with 2 bytes took 1ms
+11:21:09.312 Slow query took 26ms: SELECT COUNT(1) FROM notes
+11:21:09.329 Table counts: notes: 511, revisions: 332, attachments: 19, branches: 525, attributes: 687, etapi_tokens: 0, blobs: 451
+11:21:09.354 All consistency checks passed with no errors detected (took 69ms)
+11:23:16.751 204 PUT /api/options with 0 bytes took 1ms
+11:23:16.765 200 GET /api/notes/NUQqwr4gXjZU/blob with 2678 bytes took 0ms
+11:23:16.779 200 GET /api/notes/NUQqwr4gXjZU/metadata with 181 bytes took 0ms
+11:23:16.780 200 GET /api/search/note.parents.noteId%3D%22NUQqwr4gXjZU%22%20%23!archived with 2 bytes took 1ms
+11:23:16.781 200 GET /api/notes/NUQqwr4gXjZU/attachments with 2 bytes took 0ms
+11:23:16.782 200 GET /api/notes/NUQqwr4gXjZU/attachments with 2 bytes took 1ms
+11:23:16.783 200 GET /api/note-map/NUQqwr4gXjZU/backlink-count with 11 bytes took 1ms
+11:23:16.816 200 GET /api/search/%23textSnippet with 2 bytes took 1ms
+11:23:17.146 JS Info: CKEditor state changed to ready
+11:23:18.026 204 PUT /api/options with 0 bytes took 0ms
+11:23:18.034 200 GET /api/notes/Q0aW9P7wPDmz/blob with 1888 bytes took 0ms
+11:23:18.042 200 GET /api/notes/Q0aW9P7wPDmz/metadata with 181 bytes took 0ms
+11:23:18.042 200 GET /api/notes/Q0aW9P7wPDmz/attachments with 2 bytes took 0ms
+11:23:18.043 200 GET /api/notes/Q0aW9P7wPDmz/attachments with 2 bytes took 0ms
+11:23:18.043 200 GET /api/note-map/Q0aW9P7wPDmz/backlink-count with 11 bytes took 0ms
+11:23:21.017 204 PUT /api/options with 0 bytes took 1ms
+11:23:21.026 200 GET /api/notes/7JlBIZYWRPcy/blob with 997 bytes took 1ms
+11:23:21.032 200 GET /api/notes/7JlBIZYWRPcy/metadata with 181 bytes took 0ms
+11:23:21.033 200 GET /api/notes/7JlBIZYWRPcy/attachments with 2 bytes took 1ms
+11:23:21.033 200 GET /api/notes/7JlBIZYWRPcy/attachments with 2 bytes took 0ms
+11:23:21.034 200 GET /api/note-map/7JlBIZYWRPcy/backlink-count with 11 bytes took 0ms
+11:23:27.659 Slow query took 25ms: INSERT INTO revisions (revisionId, noteId, type, mime, isProtected, title, blobId, dateLastEdited, dateCreated, utcDateLastEdited, utcDateCreated, utcDateModified) VALUES (@revisionId, @noteId, @type, @mime, @isProtected, @title, @blobId, @dateLastEdited, @dateCreated, @utcDateLastEdited, @utcDateCreated, @utcDateModified) ON CONFLICT (revisionId) DO UPDATE SET revisionId = @revisionId, noteId = @noteId, type = @type, mime = @mime, isProtected = @isProtected, title = @title, blobId = @blobId, dateLastEdited = @dateLastEdited, dateCreated = @dateCreated, utcDateLastEdited = @utcDateLastEdited, utcDateCreated = @utcDateCreated, utcDateModified = @utcDateModified
+11:23:27.664 Slow 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 31ms
+11:23:29.333 204 PUT /api/options with 0 bytes took 1ms
+11:23:29.341 200 GET /api/notes/Q0aW9P7wPDmz/blob with 1888 bytes took 1ms
+11:23:29.348 200 GET /api/notes/Q0aW9P7wPDmz/metadata with 181 bytes took 0ms
+11:23:29.348 200 GET /api/note-map/Q0aW9P7wPDmz/backlink-count with 11 bytes took 0ms
+11:23:30.897 204 PUT /api/options with 0 bytes took 1ms
+11:23:30.906 200 GET /api/notes/yzGtycSFCdGe/blob with 524 bytes took 1ms
+11:23:30.914 200 GET /api/notes/yzGtycSFCdGe/metadata with 181 bytes took 1ms
+11:23:30.914 200 GET /api/notes/yzGtycSFCdGe/attachments with 2 bytes took 0ms
+11:23:30.915 200 GET /api/notes/yzGtycSFCdGe/attachments with 2 bytes took 0ms
+11:23:30.915 200 GET /api/note-map/yzGtycSFCdGe/backlink-count with 11 bytes took 0ms
+11:23:32.343 204 PUT /api/options with 0 bytes took 0ms
+11:23:32.350 200 GET /api/notes/NUQqwr4gXjZU/blob with 2678 bytes took 0ms
+11:23:32.357 200 GET /api/notes/NUQqwr4gXjZU/metadata with 181 bytes took 0ms
+11:23:32.358 200 GET /api/note-map/NUQqwr4gXjZU/backlink-count with 11 bytes took 0ms
+11:23:33.285 200 GET /api/notes/yzGtycSFCdGe/blob with 524 bytes took 0ms
+11:23:33.292 200 GET /api/notes/yzGtycSFCdGe/metadata with 181 bytes took 0ms
+11:23:33.293 200 GET /api/note-map/yzGtycSFCdGe/backlink-count with 11 bytes took 0ms
+11:23:33.356 204 PUT /api/options with 0 bytes took 0ms
+11:23:37.671 200 GET /api/notes/7JlBIZYWRPcy/metadata with 181 bytes took 0ms
+11:23:57.151 Slow query took 25ms: SELECT revisionId FROM revisions WHERE noteId = ? AND utcDateCreated >= ?
+11:23:57.156 Slow 204 PUT /api/notes/yzGtycSFCdGe/data with 0 bytes took 30ms
+11:23:58.188 Slow query took 26ms: INSERT OR REPLACE INTO entity_changes ( entityName, entityId, hash, isErased, utcDateChanged, isSynced, changeId, componentId, instanceId ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+11:23:58.189 Slow 204 PUT /api/notes/yzGtycSFCdGe/data with 0 bytes took 27ms
+11:23:58.190 204 PUT /api/notes/yzGtycSFCdGe/data with 0 bytes took 0ms
+11:23:58.191 204 PUT /api/notes/yzGtycSFCdGe/data with 0 bytes took 1ms
+11:23:58.191 204 PUT /api/notes/yzGtycSFCdGe/data with 0 bytes took 0ms
+11:23:59.206 204 PUT /api/notes/yzGtycSFCdGe/data with 0 bytes took 1ms
+11:23:59.207 204 PUT /api/notes/yzGtycSFCdGe/data with 0 bytes took 1ms
+11:23:59.208 204 PUT /api/notes/yzGtycSFCdGe/data with 0 bytes took 0ms
+11:23:59.208 204 PUT /api/notes/yzGtycSFCdGe/data with 0 bytes took 0ms
+11:23:59.209 204 PUT /api/notes/yzGtycSFCdGe/data with 0 bytes took 0ms
+11:24:00.221 204 PUT /api/notes/yzGtycSFCdGe/data with 0 bytes took 2ms
+11:24:00.221 204 PUT /api/notes/yzGtycSFCdGe/data with 0 bytes took 0ms
+11:24:00.222 204 PUT /api/notes/yzGtycSFCdGe/data with 0 bytes took 0ms
+11:24:00.222 204 PUT /api/notes/yzGtycSFCdGe/data with 0 bytes took 0ms
+11:24:00.223 204 PUT /api/notes/yzGtycSFCdGe/data with 0 bytes took 0ms
+11:24:10.228 200 GET /api/notes/yzGtycSFCdGe/metadata with 181 bytes took 1ms
+11:24:44.217 204 PUT /api/notes/yzGtycSFCdGe/data with 0 bytes took 2ms
+11:24:45.224 204 PUT /api/notes/yzGtycSFCdGe/data with 0 bytes took 1ms
+11:24:45.225 204 PUT /api/notes/yzGtycSFCdGe/data with 0 bytes took 1ms
+11:24:45.225 204 PUT /api/notes/yzGtycSFCdGe/data with 0 bytes took 0ms
+11:24:45.225 204 PUT /api/notes/yzGtycSFCdGe/data with 0 bytes took 0ms
+11:24:46.231 204 PUT /api/notes/yzGtycSFCdGe/data with 0 bytes took 2ms
+11:24:46.231 204 PUT /api/notes/yzGtycSFCdGe/data with 0 bytes took 0ms
+11:24:56.236 200 GET /api/notes/yzGtycSFCdGe/metadata with 181 bytes took 1ms
+11:25:33.798 204 PUT /api/notes/yzGtycSFCdGe/data with 0 bytes took 1ms
+11:25:42.216 204 PUT /api/options with 0 bytes took 0ms
+11:25:42.223 200 GET /api/notes/7JlBIZYWRPcy/blob with 854 bytes took 0ms
+11:25:42.233 200 GET /api/notes/7JlBIZYWRPcy/metadata with 181 bytes took 0ms
+11:25:42.233 200 GET /api/note-map/7JlBIZYWRPcy/backlink-count with 11 bytes took 0ms
+11:25:43.804 200 GET /api/notes/yzGtycSFCdGe/metadata with 181 bytes took 1ms
+11:26:04.137 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 2ms
+11:26:05.141 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 1ms
+11:26:05.143 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 0ms
+11:26:05.288 Creating backup...
+11:26:05.330 Erased branches: ["qpzR7IuuPqzs_TJiLDNyEsatq","Np6kBBYj6k9k_ZrctZi0nprUX","Np6kBBYj6k9k_dXUPB1J8SI8A","sLliJIybl43b_nMgWOvbe1iWs","eLi43UzxsguK_xrIRd0hCHMcu"]
+11:26:05.331 Removed revisions: ["j1QvdEMYv9Zq","SMg3RIx5DW2j","FoXJrNCL42Bp","FnfjSJDyvDUz"]
+11:26:05.331 Erased notes: ["dXUPB1J8SI8A","ZrctZi0nprUX","xrIRd0hCHMcu","TJiLDNyEsatq","nMgWOvbe1iWs"]
+11:26:05.332 Erased branches: ["nMgWOvbe1iWs_qpK3YSn2GfAN","nMgWOvbe1iWs_jafI9oFJNoSG","TJiLDNyEsatq_lMjvOQ3IZnhc","TJiLDNyEsatq_seKsSgAahWsD","TJiLDNyEsatq_dxCA5h4PGS7q","xrIRd0hCHMcu_gOrU7c4PlSWY","xrIRd0hCHMcu_YZgijxiqGKwo","xrIRd0hCHMcu_19QMAv0OkkEK"]
+11:26:05.333 Erased unused blobs: ["4YoabY3fxUCTKPBtc6ZT","AQmnZks8hbrpIQ3V7Jlv","b0pKYVXnDxS2giVTnvbX","fXt9nrXPdxazcnbYqJ8i","goU7bwhmWmcaGLnVbSdj"]
+11:26:05.350 Created backup at /home/darkhan/.local/share/trilium-data/backup/backup-daily.db
+11:26:15.147 200 GET /api/notes/7JlBIZYWRPcy/metadata with 181 bytes took 1ms
+11:28:26.748 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 1ms
+11:28:27.755 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 1ms
+11:28:27.756 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 1ms
+11:28:27.757 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 0ms
+11:28:28.767 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 1ms
+11:28:28.768 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 1ms
+11:28:38.772 200 GET /api/notes/7JlBIZYWRPcy/metadata with 181 bytes took 1ms
+11:29:03.147 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 2ms
+11:29:04.153 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 1ms
+11:29:04.154 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 0ms
+11:29:04.156 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 0ms
+11:29:04.159 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 1ms
+11:29:04.161 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 1ms
+11:29:14.166 200 GET /api/notes/7JlBIZYWRPcy/metadata with 181 bytes took 1ms
+11:30:11.894 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 2ms
+11:30:12.898 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 1ms
+11:30:12.900 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 1ms
+11:30:12.902 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 1ms
+11:30:12.904 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 0ms
+11:30:22.908 200 GET /api/notes/7JlBIZYWRPcy/metadata with 181 bytes took 1ms
+11:32:44.525 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 1ms
+11:32:45.535 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 2ms
+11:32:45.538 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 1ms
+11:32:45.540 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 1ms
+11:32:55.545 200 GET /api/notes/7JlBIZYWRPcy/metadata with 181 bytes took 1ms
+11:36:20.062 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 2ms
+11:36:21.073 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 1ms
+11:36:22.083 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 1ms
+11:36:22.084 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 0ms
+11:36:24.284 Slow 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 34ms
+11:36:25.321 Slow 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 27ms
+11:36:25.321 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 0ms
+11:36:25.322 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 0ms
+11:36:25.322 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 0ms
+11:36:26.331 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 1ms
+11:36:26.332 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 0ms
+11:36:26.334 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 0ms
+11:36:26.335 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 0ms
+11:36:27.341 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 1ms
+11:36:27.342 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 0ms
+11:36:27.345 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 0ms
+11:36:29.384 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 1ms
+11:36:30.389 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 1ms
+11:36:30.390 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 0ms
+11:36:31.401 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 2ms
+11:36:32.406 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 1ms
+11:36:32.407 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 0ms
+11:36:32.410 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 1ms
+11:36:33.418 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 1ms
+11:36:33.419 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 1ms
+11:36:33.421 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 1ms
+11:36:33.423 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 0ms
+11:36:33.425 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 0ms
+11:36:34.440 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 2ms
+11:36:44.446 200 GET /api/notes/7JlBIZYWRPcy/metadata with 181 bytes took 0ms
+11:51:12.323 204 PUT /api/options with 0 bytes took 1ms
+11:51:12.330 200 GET /api/notes/Q0aW9P7wPDmz/blob with 1888 bytes took 0ms
+11:51:12.339 200 GET /api/notes/Q0aW9P7wPDmz/metadata with 181 bytes took 0ms
+11:51:12.340 200 GET /api/note-map/Q0aW9P7wPDmz/backlink-count with 11 bytes took 0ms
+11:51:13.638 204 PUT /api/options with 0 bytes took 1ms
+11:51:13.647 200 GET /api/notes/7JlBIZYWRPcy/blob with 876 bytes took 1ms
+11:51:13.655 200 GET /api/notes/7JlBIZYWRPcy/metadata with 181 bytes took 0ms
+11:51:13.656 200 GET /api/note-map/7JlBIZYWRPcy/backlink-count with 11 bytes took 0ms
+11:51:42.454 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 2ms
+11:51:43.461 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 1ms
+11:51:43.464 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 0ms
+11:51:43.466 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 1ms
+11:51:46.203 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 3ms
+11:51:47.209 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 1ms
+11:51:47.213 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 1ms
+11:51:47.214 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 0ms
+11:51:48.223 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 2ms
+11:51:48.224 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 0ms
+11:51:48.226 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 1ms
+11:51:58.232 200 GET /api/notes/7JlBIZYWRPcy/metadata with 181 bytes took 1ms
+11:52:08.180 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 1ms
+11:52:09.192 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 1ms
+11:52:10.214 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 2ms
+11:52:10.215 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 1ms
+11:52:10.217 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 0ms
+11:52:10.219 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 1ms
+11:52:11.225 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 1ms
+11:52:11.226 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 0ms
+11:52:12.241 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 2ms
+11:52:13.246 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 1ms
+11:52:13.246 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 0ms
+11:52:13.248 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 0ms
+11:52:13.250 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 1ms
+11:52:14.259 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 1ms
+11:52:24.266 200 GET /api/notes/7JlBIZYWRPcy/metadata with 181 bytes took 1ms
+11:52:59.228 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 1ms
+11:53:00.235 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 0ms
+11:53:00.236 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 0ms
+11:53:00.239 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 0ms
+11:53:00.241 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 1ms
+11:53:00.242 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 0ms
+11:53:01.252 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 1ms
+11:53:01.253 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 0ms
+11:53:01.255 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 1ms
+11:53:01.257 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 1ms
+11:53:01.258 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 0ms
+11:53:01.260 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 0ms
+11:53:02.273 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 1ms
+11:53:02.274 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 1ms
+11:53:02.275 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 0ms
+11:53:02.277 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 0ms
+11:53:03.637 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 2ms
+11:53:04.642 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 1ms
+11:53:04.643 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 1ms
+11:53:04.644 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 0ms
+11:53:05.664 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 1ms
+11:53:05.665 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 1ms
+11:53:05.667 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 1ms
+11:53:05.669 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 0ms
+11:53:06.677 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 1ms
+11:53:06.677 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 0ms
+11:53:06.682 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 1ms
+11:53:16.686 200 GET /api/notes/7JlBIZYWRPcy/metadata with 181 bytes took 0ms
+11:53:57.097 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 2ms
+11:53:58.104 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 1ms
+11:53:58.105 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 1ms
+11:54:02.887 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 2ms
+11:54:03.894 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 1ms
+11:54:03.895 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 0ms
+11:54:04.906 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 1ms
+11:54:05.911 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 1ms
+11:54:05.912 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 1ms
+11:54:05.915 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 1ms
+11:54:06.922 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 2ms
+11:54:06.922 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 0ms
+11:54:06.924 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 0ms
+11:54:06.926 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 0ms
+11:54:06.928 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 0ms
+11:54:07.937 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 1ms
+11:54:07.938 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 0ms
+11:54:08.948 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 1ms
+11:54:08.949 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 0ms
+11:54:08.951 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 0ms
+11:54:08.953 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 0ms
+11:54:09.960 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 1ms
+11:54:09.963 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 1ms
+11:54:09.965 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 0ms
+11:54:09.967 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 1ms
+11:54:10.974 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 1ms
+11:54:10.978 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 1ms
+11:54:10.980 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 0ms
+11:54:11.988 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 1ms
+11:54:11.989 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 0ms
+11:54:11.991 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 0ms
+11:54:14.456 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 1ms
+11:54:24.462 200 GET /api/notes/7JlBIZYWRPcy/metadata with 181 bytes took 1ms
+12:04:29.526 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 2ms
+12:04:30.533 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 1ms
+12:04:33.447 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 1ms
+12:04:35.759 Slow 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 31ms
+12:04:36.859 Slow 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 27ms
+12:04:42.005 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 1ms
+12:04:43.010 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 1ms
+12:04:43.012 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 0ms
+12:04:43.014 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 0ms
+12:04:44.023 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 1ms
+12:04:44.026 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 1ms
+12:04:45.034 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 2ms
+12:04:45.037 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 1ms
+12:04:46.046 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 1ms
+12:04:46.048 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 0ms
+12:04:47.058 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 1ms
+12:04:47.059 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 0ms
+12:04:47.062 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 1ms
+12:04:57.067 200 GET /api/notes/7JlBIZYWRPcy/metadata with 181 bytes took 1ms
+12:05:19.969 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 1ms
+12:05:20.978 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 0ms
+12:05:21.987 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 1ms
+12:05:21.989 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 0ms
+12:05:29.531 204 PUT /api/options with 0 bytes took 0ms
+12:05:29.538 200 GET /api/notes/NUQqwr4gXjZU/blob with 2678 bytes took 0ms
+12:05:29.545 200 GET /api/notes/NUQqwr4gXjZU/metadata with 181 bytes took 0ms
+12:05:29.546 200 GET /api/note-map/NUQqwr4gXjZU/backlink-count with 11 bytes took 0ms
+12:05:31.994 200 GET /api/notes/7JlBIZYWRPcy/metadata with 181 bytes took 0ms
+12:05:33.664 204 PUT /api/options with 0 bytes took 1ms
+12:05:33.668 200 GET /api/notes/7JlBIZYWRPcy/blob with 862 bytes took 0ms
+12:05:33.674 200 GET /api/notes/7JlBIZYWRPcy/metadata with 181 bytes took 0ms
+12:05:33.675 200 GET /api/note-map/7JlBIZYWRPcy/backlink-count with 11 bytes took 0ms
+12:05:36.276 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 1ms
+12:05:37.288 204 PUT /api/notes/7JlBIZYWRPcy/data with 0 bytes took 1ms
+12:05:41.592 204 PUT /api/options with 0 bytes took 0ms
+12:05:41.601 200 GET /api/notes/Q0aW9P7wPDmz/blob with 1888 bytes took 0ms
+12:05:41.608 200 GET /api/notes/Q0aW9P7wPDmz/metadata with 181 bytes took 0ms
+12:05:41.609 200 GET /api/note-map/Q0aW9P7wPDmz/backlink-count with 11 bytes took 1ms
+12:05:43.711 204 PUT /api/options with 0 bytes took 1ms
+12:05:43.718 200 GET /api/notes/yzGtycSFCdGe/blob with 541 bytes took 0ms
+12:05:43.725 200 GET /api/notes/yzGtycSFCdGe/metadata with 181 bytes took 0ms
+12:05:43.725 200 GET /api/note-map/yzGtycSFCdGe/backlink-count with 11 bytes took 0ms
+12:05:47.293 200 GET /api/notes/7JlBIZYWRPcy/metadata with 181 bytes took 1ms
+12:05:48.328 204 PUT /api/options with 0 bytes took 0ms
+12:05:48.334 200 GET /api/notes/7JlBIZYWRPcy/blob with 841 bytes took 0ms
+12:05:48.342 200 GET /api/notes/7JlBIZYWRPcy/metadata with 181 bytes took 0ms
+12:05:48.342 200 GET /api/note-map/7JlBIZYWRPcy/backlink-count with 11 bytes took 0ms
